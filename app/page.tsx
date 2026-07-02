@@ -89,6 +89,17 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 right-0 h-24" style={{ background: "linear-gradient(to top, var(--sand), transparent)" }} />
       </section>
 
+      {/* Grandma + grandchild — full bleed photo break */}
+      <section className="relative h-[60vh] overflow-hidden">
+        <Image src="/images/grandma-grandchild-sunset.jpg" alt="Grandmother and grandchild watching the sunset together" fill className="object-cover object-center" />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, transparent 40%, rgba(10,29,47,0.6) 100%)" }} />
+        <div className="absolute bottom-10 left-0 right-0 text-center">
+          <p className="text-white text-xl font-light italic tracking-wide" style={{ fontFamily: "var(--font-cormorant)" }}>
+            "I wish that were my memory."
+          </p>
+        </div>
+      </section>
+
       {/* Philosophy */}
       <section className="py-24 px-6">
         <div className="max-w-3xl mx-auto text-center flex flex-col gap-8">
@@ -162,6 +173,34 @@ export default function Home() {
               View All Services
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Photo triptych — families, couples, friends */}
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-0">
+        <div className="relative h-80 overflow-hidden">
+          <Image src="/images/family-kids-waves.jpg" alt="Family watching children run into the waves" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.25)" }} />
+          <p className="absolute bottom-5 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Families</p>
+        </div>
+        <div className="relative h-80 overflow-hidden">
+          <Image src="/images/couple-dancing-sunset.jpg" alt="Senior couple dancing on the beach at sunset" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.25)" }} />
+          <p className="absolute bottom-5 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Couples</p>
+        </div>
+        <div className="relative h-80 overflow-hidden">
+          <Image src="/images/friends-dock-sunset.jpg" alt="Friends sitting on a dock watching the sunset" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.25)" }} />
+          <p className="absolute bottom-5 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Friends</p>
+        </div>
+      </section>
+
+      {/* Breakfast balcony — quiet moment divider */}
+      <section className="relative h-48 overflow-hidden">
+        <Image src="/images/breakfast-balcony.jpg" alt="Breakfast on a villa balcony overlooking the ocean" fill className="object-cover object-top" />
+        <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.35)" }} />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <p className="text-white text-sm tracking-[0.4em] uppercase font-light">Every trip begins with a quiet morning.</p>
         </div>
       </section>
 

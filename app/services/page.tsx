@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 const services = [
   {
@@ -136,6 +137,18 @@ export default function ServicesPage() {
           <p className="text-lg font-light leading-relaxed" style={{ color: "var(--fog)", fontFamily: "var(--font-cormorant)" }}>
             Years of travel have given us a deep understanding of cruise line loyalty programs, hotel status, and how to maximize what you already have. We&apos;ll make sure you&apos;re using every point, every perk, and every upgrade available to you.
           </p>
+        </div>
+      </section>
+
+      {/* Photo break — couples + friends */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-0">
+        <div className="relative h-72 overflow-hidden">
+          <Image src="/images/couple-coffee-balcony.jpg" alt="Couple sharing coffee on a balcony with ocean views" fill className="object-cover object-center" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
+        </div>
+        <div className="relative h-72 overflow-hidden">
+          <Image src="/images/friends-fire-pit.jpg" alt="Friends toasting around a beach fire pit at sunset" fill className="object-cover object-center" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
         </div>
       </section>
 
