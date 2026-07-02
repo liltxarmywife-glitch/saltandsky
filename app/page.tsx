@@ -29,7 +29,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center pt-20" style={{ backgroundColor: "var(--sand)" }}>
         <div className="max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
           <h1 className="sr-only">Salt &amp; Sky Travel</h1>
-          <Image src="/images/logo.png" alt="Salt & Sky Travel" width={560} height={373} className="object-contain" priority />
+          <Image src="/images/logo.png" alt="Salt & Sky Travel" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
 
           <p className="text-lg font-light leading-relaxed max-w-lg" style={{ color: "#4a4a4a", fontFamily: "var(--font-cormorant)" }}>
             We don&apos;t just book trips. We create the experiences your family will still talk about twenty years from now.
