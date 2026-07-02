@@ -140,15 +140,27 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Photo break — couples + friends */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-0">
-        <div className="relative h-72 overflow-hidden">
-          <Image src="/images/couple-coffee-balcony.jpg" alt="Couple sharing coffee on a balcony with ocean views" fill className="object-cover object-center" />
-          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
+      {/* Group travel photo grid */}
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-0">
+        <div className="relative h-64 overflow-hidden">
+          <Image src="/images/bachelorette-cruise.jpg" alt="Bachelorette group on a cruise at sunset" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.3)" }} />
+          <p className="absolute bottom-4 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Bachelorette</p>
         </div>
-        <div className="relative h-72 overflow-hidden">
-          <Image src="/images/friends-fire-pit.jpg" alt="Friends toasting around a beach fire pit at sunset" fill className="object-cover object-center" />
-          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
+        <div className="relative h-64 overflow-hidden">
+          <Image src="/images/family-reunion.jpg" alt="Family reunion dinner outdoors at sunset" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.3)" }} />
+          <p className="absolute bottom-4 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Family Reunion</p>
+        </div>
+        <div className="relative h-64 overflow-hidden">
+          <Image src="/images/girls-trip.jpg" alt="Women walking together on a resort path" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.3)" }} />
+          <p className="absolute bottom-4 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Girls Trip</p>
+        </div>
+        <div className="relative h-64 overflow-hidden">
+          <Image src="/images/milestone-birthday.jpg" alt="Milestone birthday celebration outdoors with string lights" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.3)" }} />
+          <p className="absolute bottom-4 left-0 right-0 text-center text-xs tracking-[0.3em] uppercase text-white">Milestone Birthday</p>
         </div>
       </section>
 

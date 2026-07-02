@@ -195,6 +195,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Anniversary + church group — quiet pair */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-0">
+        <div className="relative h-72 overflow-hidden">
+          <Image src="/images/anniversary-couple.jpg" alt="Anniversary couple walking the beach at sunset" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
+        </div>
+        <div className="relative h-72 overflow-hidden">
+          <Image src="/images/church-group.jpg" alt="Church group gathered at sunset by the water" fill className="object-cover object-center hover:scale-105 transition-transform duration-700" />
+          <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.2)" }} />
+        </div>
+      </section>
+
       {/* Breakfast balcony — quiet moment divider */}
       <section className="relative h-48 overflow-hidden">
         <Image src="/images/breakfast-balcony.jpg" alt="Breakfast on a villa balcony overlooking the ocean" fill className="object-cover object-top" />
