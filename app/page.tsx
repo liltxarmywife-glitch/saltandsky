@@ -31,10 +31,6 @@ export default function Home() {
           <h1 className="sr-only">Salt &amp; Sky Travel</h1>
           <Image src="/images/logo.png" alt="Salt & Sky Travel" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
 
-          <p className="text-lg font-light leading-relaxed max-w-lg" style={{ color: "#4a4a4a", fontFamily: "var(--font-cormorant)" }}>
-            We don&apos;t just book trips. We create the experiences your family will still talk about twenty years from now.
-          </p>
-
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/contact"
