@@ -10,7 +10,7 @@ export default function OurStoryPage() {
 
       {/* Hero */}
       <section className="pt-40 pb-24 px-6 text-center relative overflow-hidden" style={{ minHeight: "400px" }}>
-        <Image src="/images/road-sunset.jpg" alt="Life on the road at sunset" fill className="object-cover object-center" />
+        <Image src="/images/mel-kelsey-sunset.jpg" alt="Melissa and Kelsey on a cruise deck at sunset" fill className="object-cover object-top" />
         <div className="absolute inset-0" style={{ background: "rgba(10,29,47,0.75)" }} />
         <div className="max-w-3xl mx-auto flex flex-col gap-6">
           <p className="relative z-10 text-xs tracking-[0.4em] uppercase" style={{ color: "var(--sea-glass)" }}>Who We Are</p>
@@ -43,6 +43,16 @@ export default function OurStoryPage() {
             <p className="text-xl italic" style={{ color: "var(--gold)" }}>
               That&apos;s what we do.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Mel & Kelsey Capri photo */}
+      <section className="px-6 pb-8">
+        <div className="max-w-4xl mx-auto relative overflow-hidden rounded-sm" style={{ height: "420px" }}>
+          <Image src="/images/mel-kelsey-capri.jpg" alt="Melissa and Kelsey in Capri" fill className="object-cover object-center" />
+          <div className="absolute inset-0 flex items-end p-6" style={{ background: "linear-gradient(to top, rgba(10,29,47,0.6), transparent)" }}>
+            <p className="text-sm italic text-white" style={{ fontFamily: "var(--font-cormorant)" }}>Melissa & Kelsey — somewhere between the ocean and the horizon.</p>
           </div>
         </div>
       </section>
