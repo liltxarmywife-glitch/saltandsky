@@ -19,9 +19,9 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50" style={{ backgroundColor: "var(--sand)", borderBottom: "1px solid var(--fog)" }}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
+        {/* Logo mark */}
         <Link href="/" className="flex items-center">
-          <Image src="/images/logo.png" alt="Salt & Sky Travel" width={160} height={107} className="object-contain" />
+          <Image src="/images/logo-mark.png" alt="Salt & Sky Travel" width={56} height={56} className="object-contain" />
         </Link>
 
         {/* Desktop links */}

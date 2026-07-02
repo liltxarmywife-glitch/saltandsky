@@ -26,46 +26,32 @@ export default function Home() {
       <Nav />
 
       {/* Hero */}
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <Image
-          src="/images/hero-wake.jpg"
-          alt="Cruise ship wake on open ocean"
-          fill
-          className="object-cover object-center"
-          priority
-        />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(10,29,47,0.7) 0%, rgba(10,29,47,0.5) 50%, rgba(10,29,47,0.8) 100%)" }} />
-        <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: "var(--gold)", opacity: 0.4 }} />
+      <section className="min-h-screen flex items-center justify-center pt-20" style={{ backgroundColor: "var(--sand)" }}>
+        <div className="max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
+          <h1 className="sr-only">Salt &amp; Sky Travel</h1>
+          <Image src="/images/logo.png" alt="Salt & Sky Travel" width={560} height={373} className="object-contain" priority />
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
-          <div className="flex flex-col items-center gap-0">
-            <h1 className="sr-only">Salt &amp; Sky Travel</h1>
-            <Image src="/images/logo.png" alt="Salt & Sky Travel" width={520} height={347} className="object-contain" style={{ filter: "brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0,0,0,0.3))" }} priority />
-          </div>
-
-          <p className="text-base font-light leading-relaxed max-w-lg" style={{ color: "var(--fog)", fontFamily: "var(--font-cormorant)", opacity: 0.85 }}>
+          <p className="text-lg font-light leading-relaxed max-w-lg" style={{ color: "#4a4a4a", fontFamily: "var(--font-cormorant)" }}>
             We don&apos;t just book trips. We create the experiences your family will still talk about twenty years from now.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mt-4">
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/contact"
               className="px-8 py-4 text-sm tracking-widest uppercase transition-opacity hover:opacity-80"
-              style={{ backgroundColor: "var(--gold)", color: "var(--navy)" }}
+              style={{ backgroundColor: "var(--navy)", color: "var(--sand)" }}
             >
               Start Planning
             </Link>
             <Link
               href="/our-story"
-              className="px-8 py-4 text-sm tracking-widest uppercase border text-white transition-opacity hover:opacity-70"
-              style={{ borderColor: "rgba(255,255,255,0.3)" }}
+              className="px-8 py-4 text-sm tracking-widest uppercase border transition-opacity hover:opacity-70"
+              style={{ borderColor: "var(--navy)", color: "var(--navy)" }}
             >
               Our Story
             </Link>
           </div>
         </div>
-
-        <div className="absolute bottom-0 left-0 right-0 h-24" style={{ background: "linear-gradient(to top, var(--sand), transparent)" }} />
       </section>
 
       {/* Grandma + grandchild — full bleed photo break */}
