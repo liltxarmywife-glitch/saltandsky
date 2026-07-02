@@ -38,30 +38,9 @@ export default function Home() {
         <div className="absolute top-0 left-0 right-0 h-px" style={{ backgroundColor: "var(--gold)", opacity: 0.4 }} />
 
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
-          <p className="text-xs tracking-[0.4em] uppercase" style={{ color: "var(--sea-glass)" }}>
-            Kelsey & Melissa · Founders & Travel Advisors
-          </p>
-
-          <div className="flex flex-col items-center gap-1">
-            <h1 className="text-6xl md:text-8xl font-normal tracking-[0.15em] uppercase text-white" style={{ fontFamily: "var(--font-playfair)" }}>
-              Salt <span style={{ color: "var(--gold)" }}>&</span> Sky
-            </h1>
-            <p className="text-sm tracking-[0.5em] uppercase" style={{ color: "var(--sea-glass)" }}>Travel</p>
-          </div>
-
-          <div className="flex items-center gap-4 w-full max-w-sm">
-            <div className="flex-1 h-px" style={{ backgroundColor: "var(--gold)", opacity: 0.5 }} />
-            <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "var(--gold)" }} />
-            <div className="flex-1 h-px" style={{ backgroundColor: "var(--gold)", opacity: 0.5 }} />
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <p className="text-xl md:text-2xl font-light tracking-wide text-white uppercase" style={{ letterSpacing: "0.1em" }}>
-              Between the ocean and the horizon
-            </p>
-            <p className="text-2xl md:text-3xl font-light italic" style={{ color: "var(--gold)", fontFamily: "var(--font-cormorant)" }}>
-              are the moments that matter.
-            </p>
+          <div className="flex flex-col items-center gap-0">
+            <h1 className="sr-only">Salt &amp; Sky Travel</h1>
+            <Image src="/images/logo.png" alt="Salt & Sky Travel" width={520} height={347} className="object-contain" style={{ filter: "brightness(0) invert(1) drop-shadow(0 2px 8px rgba(0,0,0,0.3))" }} priority />
           </div>
 
           <p className="text-base font-light leading-relaxed max-w-lg" style={{ color: "var(--fog)", fontFamily: "var(--font-cormorant)", opacity: 0.85 }}>
