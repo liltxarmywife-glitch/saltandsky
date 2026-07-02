@@ -36,8 +36,8 @@ export default function Footer() {
         {/* Contact */}
         <div className="flex flex-col gap-3">
           <p className="text-xs tracking-widest uppercase mb-2" style={{ color: "var(--gold)" }}>Get in Touch</p>
-          <a href="mailto:hello@saltandskytravel.com" className="text-sm text-white hover:opacity-70 transition-opacity">
-            hello@saltandskytravel.com
+          <a href="mailto:hello@saltandskytravels.com" className="text-sm text-white hover:opacity-70 transition-opacity">
+            hello@saltandskytravels.com
           </a>
           <p className="text-sm mt-4 leading-relaxed" style={{ color: "var(--fog)", fontFamily: "var(--font-cormorant)", fontStyle: "italic" }}>
             Creating experiences worth remembering.
@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="border-t px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4" style={{ borderColor: "rgba(255,255,255,0.1)" }}>
         <p className="text-xs" style={{ color: "var(--fog)", opacity: 0.5 }}>
-          © {new Date().getFullYear()} Salt & Sky Travel. All rights reserved.
+          © {new Date().getFullYear()} Salt & Sky Travels. All rights reserved.
         </p>
         <p className="text-xs" style={{ color: "var(--fog)", opacity: 0.5 }}>
           Kelsey & Melissa · Fora Travel

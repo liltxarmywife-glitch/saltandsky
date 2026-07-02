@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
 
     // Email to Kelsey & Melissa
     await resend.emails.send({
-      from: "Salt & Sky Travel <hello@saltandskytravel.com>",
+      from: "Salt & Sky Travels <hello@saltandskytravels.com>",
       to: ["liltxarmywife@aol.com"],
       subject: `New Travel Inquiry from ${name}`,
       html: `
@@ -46,9 +46,9 @@ export async function POST(req: NextRequest) {
 
     // Confirmation email to the client
     await resend.emails.send({
-      from: "Salt & Sky Travel <hello@saltandskytravel.com>",
+      from: "Salt & Sky Travels <hello@saltandskytravels.com>",
       to: [email],
-      subject: "We received your request — Salt & Sky Travel",
+      subject: "We received your request — Salt & Sky Travels",
       html: `
         <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; color: #0A1D2F;">
           <div style="background: #0A1D2F; padding: 32px; text-align: center;">
@@ -62,10 +62,10 @@ export async function POST(req: NextRequest) {
             <div style="border-left: 2px solid #D4AF37; padding-left: 20px; margin: 32px 0;">
               <p style="font-size: 19px; font-style: italic; color: #0A1D2F; margin: 0;">Between the ocean and the horizon are the moments that matter.</p>
             </div>
-            <p style="font-size: 15px; color: #4a4a4a; margin: 32px 0 0;">With warmth,<br/><strong>Kelsey & Melissa</strong><br/>Salt & Sky Travel</p>
+            <p style="font-size: 15px; color: #4a4a4a; margin: 32px 0 0;">With warmth,<br/><strong>Kelsey & Melissa</strong><br/>Salt & Sky Travels</p>
           </div>
           <div style="padding: 16px 32px; text-align: center;">
-            <p style="font-size: 12px; color: #aaa;">hello@saltandskytravel.com · saltandskytravel.com</p>
+            <p style="font-size: 12px; color: #aaa;">hello@saltandskytravels.com · saltandskytravels.com</p>
           </div>
         </div>
       `,

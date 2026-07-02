@@ -16,11 +16,11 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Salt & Sky Travel | Between the Ocean and the Horizon",
+  title: "Salt & Sky Travels | Between the Ocean and the Horizon",
   description: "Creating experiences worth remembering. Specializing in family reunions, milestone celebrations, group getaways, cruises, and unforgettable journeys.",
   keywords: "luxury travel advisor, group travel, family reunion cruise, milestone celebration travel, couples travel, faith-based group travel",
   openGraph: {
-    title: "Salt & Sky Travel",
+    title: "Salt & Sky Travels",
     description: "Between the ocean and the horizon are the moments that matter.",
     type: "website",
   },

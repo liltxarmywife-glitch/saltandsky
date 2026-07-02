@@ -21,7 +21,7 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo mark */}
         <Link href="/" className="flex items-center">
-          <Image src="/images/logo-mark.png" alt="Salt & Sky Travel" width={56} height={56} className="object-contain" />
+          <Image src="/images/logo-mark.png" alt="Salt & Sky Travels" width={56} height={56} className="object-contain" />
         </Link>
 
         {/* Desktop links */}

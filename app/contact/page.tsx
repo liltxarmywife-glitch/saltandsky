@@ -91,7 +91,7 @@ export default function ContactPage() {
                 We received your request.
               </h2>
               <p className="text-lg font-light leading-relaxed" style={{ fontFamily: "var(--font-cormorant)", color: "#4a4a4a" }}>
-                Thank you for reaching out to Salt & Sky Travel. Kelsey or Melissa will be in touch shortly to start building something worth remembering.
+                Thank you for reaching out to Salt & Sky Travels. Kelsey or Melissa will be in touch shortly to start building something worth remembering.
               </p>
               <p className="text-base italic" style={{ color: "var(--gold)", fontFamily: "var(--font-cormorant)" }}>
                 Between the ocean and the horizon are the moments that matter.
@@ -217,7 +217,7 @@ export default function ContactPage() {
 
               {status === "error" && (
                 <p className="text-sm" style={{ color: "#c0392b" }}>
-                  Something went wrong. Please email us directly at hello@saltandskytravel.com
+                  Something went wrong. Please email us directly at hello@saltandskytravels.com
                 </p>
               )}
 
