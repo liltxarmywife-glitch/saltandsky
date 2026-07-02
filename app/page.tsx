@@ -31,6 +31,10 @@ export default function Home() {
           <h1 className="sr-only">Salt &amp; Sky Travel</h1>
           <Image src="/images/logo.png" alt="Salt & Sky Travel" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
 
+          <p className="text-2xl md:text-3xl font-light italic" style={{ color: "var(--navy)", fontFamily: "var(--font-cormorant)" }}>
+            Between the ocean and the horizon are the moments that matter.
+          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/contact"
