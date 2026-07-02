@@ -29,13 +29,14 @@ export default function Home() {
       <section className="min-h-screen flex items-center justify-center pt-20" style={{ backgroundColor: "var(--sand)" }}>
         <div className="max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
           <h1 className="sr-only">Salt &amp; Sky Travel</h1>
-          <Image src="/images/logo.png" alt="Salt & Sky Travel" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
+          <div className="flex flex-col items-center gap-2">
+            <Image src="/images/logo.png" alt="Salt & Sky Travel" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
+            <p className="text-2xl md:text-3xl font-light italic -mt-2" style={{ color: "var(--navy)", fontFamily: "var(--font-cormorant)" }}>
+              Between the ocean and the horizon are the moments that matter.
+            </p>
+          </div>
 
-          <p className="text-2xl md:text-3xl font-light italic" style={{ color: "var(--navy)", fontFamily: "var(--font-cormorant)" }}>
-            Between the ocean and the horizon are the moments that matter.
-          </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 mt-2">
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/contact"
               className="px-8 py-4 text-sm tracking-widest uppercase transition-opacity hover:opacity-80"
