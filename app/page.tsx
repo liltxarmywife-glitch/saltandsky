@@ -207,13 +207,8 @@ export default function Home() {
       {/* About Mel */}
       <section className="py-24 px-6" style={{ backgroundColor: "var(--navy)" }}>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-16 items-center">
-          <div
-            className="w-64 h-80 shrink-0 flex items-center justify-center"
-            style={{ backgroundColor: "rgba(255,255,255,0.05)", border: "1px solid rgba(212,175,55,0.3)" }}
-          >
-            <p className="text-xs tracking-widest uppercase text-center" style={{ color: "var(--gold)", opacity: 0.5 }}>
-              Photo<br />Coming Soon
-            </p>
+          <div className="w-64 h-80 shrink-0 relative overflow-hidden">
+            <Image src="/images/mel-kelsey-sunset.jpg" alt="Melissa and Kelsey on a cruise deck at sunset" fill className="object-cover object-top" />
           </div>
 
           <div className="flex flex-col gap-6">
