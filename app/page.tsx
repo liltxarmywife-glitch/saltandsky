@@ -31,7 +31,7 @@ export default function Home() {
           <h1 className="sr-only">Salt &amp; Sky Travels</h1>
           <div className="flex flex-col items-center gap-2">
             <Image src="/images/logo.png" alt="Salt & Sky Travels" width={900} height={600} className="object-contain w-full max-w-4xl" priority />
-            <p className="text-2xl md:text-3xl font-light italic -mt-2" style={{ color: "var(--navy)", fontFamily: "var(--font-cormorant)" }}>
+            <p className="text-2xl md:text-3xl font-light italic -mt-20" style={{ color: "var(--navy)", fontFamily: "var(--font-cormorant)" }}>
               Between the ocean and the horizon are the moments that matter.
             </p>
           </div>
